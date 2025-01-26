@@ -13,6 +13,4 @@ const Gallery = ({ assets }: GalleryProps) => {
   )
 }
 
-
-
 export default Gallery

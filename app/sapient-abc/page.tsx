@@ -1,5 +1,5 @@
-import Gallery from '@/components/Sapient/Gallery';
-import { GalleryProps } from '@/types/gallery';
+import Gallery from '@/components/Sapient/Gallery'
+import { GalleryProps } from '@/types/gallery'
 
 const SapientProjectPage = () => {
   return (
@@ -50,4 +50,4 @@ const sampleGalleryProps: GalleryProps = {
     mobile: 2,
     desktop: 4,
   },
-};
+}

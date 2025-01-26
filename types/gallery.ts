@@ -3,6 +3,12 @@ export interface GalleryProps {
   pageSize: PageSize
 }
 
+export interface GalleryItemProps {
+  type: AssetType
+  url: string
+  caption: string
+}
+
 export interface Asset {
   type: AssetType
   id: string
@@ -15,4 +21,14 @@ export type AssetType = "image" | "video"
 export interface PageSize {
   mobile: number
   desktop: number
+}
+
+export interface ImageProps {
+  url: string
+  caption: string
+}
+
+export interface VideoProps {
+  url: string
+  caption: string
 }

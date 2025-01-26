@@ -1,4 +1,4 @@
-import { GalleryProps } from '../../types/gallery'
+import { GalleryProps } from '@/types/gallery'
 
 const Gallery = ({ assets }: GalleryProps) => {
   return (

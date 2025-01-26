@@ -1,7 +1,7 @@
 import { GalleryItemProps } from '@/types/gallery'
 
-import Image from '@/components/Sapient/Image'
-import Video from '@/components/Sapient/Video'
+import Image from '@/components/Image'
+import Video from '@/components/Video'
 
 const GalleryItem = ({ type, ...rest }: GalleryItemProps) => {
   switch (type) {

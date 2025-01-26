@@ -1,1 +1,0 @@
-export type StringCallback = (value: string) => void
